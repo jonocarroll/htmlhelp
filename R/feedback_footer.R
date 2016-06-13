@@ -17,6 +17,7 @@ feedback_footer = function(repo, file=NULL) {
   rating = ifelse(connection, paste0('<div class="rw-ui-container" data-title="', packageName(), "-", fn_name, '"></div>'),
                   '<div class="rw-ui-container">Internet connection required for ratings.</div>')
   footer = sprintf('<div id="footer">
+                   <span id="lift-anchor"><a>^</a></span>
                    %s
                    <span id="gh-links">
                    <img src="figures/GitHub-Mark-Light-64px.png">

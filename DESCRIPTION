@@ -1,8 +1,9 @@
 Package: htmlhelp
 Type: Package
 Title: Enhanced HTML R documentation
-Version: 0.1.0
-Authors@R: person("Noam", "Ross", email = "noam.ross@gmail.com", role = c("aut", "cre"))
+Version: 0.2.0
+Authors@R: c(person("Noam", "Ross", email = "noam.ross@gmail.com", role = c("aut", "cre")),
+             person("Jonathan", "Carroll", email = "jono@jcarroll.com.au", role = c("ctb")))
 Description: Some experiments in dynamic package documentation
 Imports: RCurl
 License: MIT
